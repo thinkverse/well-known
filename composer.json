@@ -1,17 +1,19 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "thinkverse/well-known",
+    "description": "A Laravel package for quickly adding .well-known URLs",
     "keywords": [
-        ":vendor_name",
+        "thinkverse",
         "laravel",
-        ":package_slug"
+        "well-known",
+        "laravel-package",
+        "pacakge"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/thinkverse/well-known",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Kim Hallberg",
+            "email": "hallberg.kim@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,18 +32,16 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Thinkverse\\WellKnown\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Thinkverse\\WellKnown\\Tests\\": "tests"
         }
     },
     "scripts": {
-        "test": "./vendor/bin/pest --no-coverage",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+        "test": "./vendor/bin/pest --no-coverage"
     },
     "config": {
         "sort-packages": true
@@ -49,11 +49,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
-            }
+                "Thinkverse\\WellKnown\\WellKnownServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
