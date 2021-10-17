@@ -1,7 +1,9 @@
-<?php declare(strict_types=1);
+<?php
 
-use Illuminate\Support\Facades\Route;
+declare(strict_types=1);
+
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Route;
 
 use function Pest\Laravel\get;
 

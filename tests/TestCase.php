@@ -1,9 +1,11 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Thinkverse\WellKnown\Tests;
 
-use Thinkverse\WellKnown\WellKnownServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Thinkverse\WellKnown\WellKnownServiceProvider;
 
 class TestCase extends Orchestra
 {
