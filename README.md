@@ -1,3 +1,5 @@
+> **Warning** Package is deprecated, it's recommended to add your `/.well-known` routes in your route files.
+
 # A Laravel package for quickly adding .well-known URLs
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/thinkverse/well-known.svg?style=flat-square)](https://packagist.org/packages/thinkverse/well-known)
